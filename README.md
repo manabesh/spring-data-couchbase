@@ -41,10 +41,10 @@ http://localhost:8080/springdatacouchbase/users
 ```
 ```
 {
-  "name": "Carlos",
-  "nicknames": ["charz"],
+  "name": "John",
+  "nicknames": ["Doe"],
   "age": 25,
-  "email": "carlos1@yopmail.com"
+  "email": "JohnDoe@ymail.com"
 }
 ```
 
@@ -66,17 +66,17 @@ http://localhost:8080/springdatacouchbase/users/1
 
 **5. Find user by email. HTTP Method: GET**
 ```
-http://localhost:8080/springdatacouchbase/users/find/email?email=carlos1@yopmail.com
+http://localhost:8080/springdatacouchbase/users/find/email?email=JohnDoe@ymail.com
 ```
 
 **6. Find user by nickname. HTTP Method: GET**
 ```
-http://localhost:8080/springdatacouchbase/users/find/nickname?nickname=charz
+http://localhost:8080/springdatacouchbase/users/find/nickname?nickname=john
 ```
 
 **7. Find user by name. HTTP Method: GET**
 ```
-http://localhost:8080/springdatacouchbase/users/find/name?name=carlos
+http://localhost:8080/springdatacouchbase/users/find/name?name=john
 ```
 
 **8. User exists? HTTP Method: GET**
@@ -136,27 +136,3 @@ http://localhost:8080/springdatacouchbase/users/count/all
 * [Spring Data Couchbase Properties](http://s-xu.blogspot.com.ar/2016/09/spring-boot-common-application.html): Spring Boot common application properties.
 * [Spring Data Couchbase Documentation](https://docs.spring.io/spring-data/couchbase/docs/3.1.0.M3/reference/html/): Spring Data Couchbase Documentation.
 * [Spring Boot 2 - Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes): Spring Boot 2.0 Release Notes.
-
-## About me
-I am Carlos Becerra - MSc. Softwware & Systems.  But to tell you the truth, I'd prefer to be a passionate developer. You can contact me via:
-
-* [Google+](https://plus.google.com/+CarlosBecerraRodr%C3%ADguez)
-* [Twitter](https://twitter.com/CarlosBecerraRo)
-
-_**Any improvement or comment about the project is always welcome! As well as others shared their code publicly I want to share mine! Thanks!**_
-
-## License
-```javas
-Copyright 2019 Carlos Becerra
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
